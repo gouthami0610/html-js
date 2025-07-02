@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 5px;
+      font-size: 18px;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 24px;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Simple Calculator</h1>
+
+  <input type="number" id="number1" placeholder="Enter first number">
+  <input type="number" id="number2" placeholder="Enter second number"><br>
+
+  <button onclick="add()">+</button>
+  <button onclick="subtract()">−</button>
+  <button onclick="multiply()">×</button>
+  <button onclick="divide()">÷</button>
+
+  <div id="result"></div>
+
+  <!-- Link JavaScript -->
+  <script src="calculator.js"></script>
+
+</body>
+</html>
